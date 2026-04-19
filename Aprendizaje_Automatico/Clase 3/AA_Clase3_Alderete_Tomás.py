@@ -47,7 +47,7 @@ plt.show()
 # 4 - Boxplot de cylinders y de origin
 
 plt.figure(figsize=(10, 6))
-sns.boxplot(data=dat_csv, x='origin', y='cylinders', palette='viridis')
+sns.boxplot(data=dat_csv, x='origin', y='cylinders')
 
 # 5 - Gráfico de barras con la  distribución año de modelo (`model_year`) y origen (`origin`).
 
