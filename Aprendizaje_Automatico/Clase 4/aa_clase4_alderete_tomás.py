@@ -30,6 +30,10 @@ import numpy as np
 # Voy a inventar un dataframe ya que genz contiene +10.000 registros y no encontré la forma de limitar la salida.
 # La idea es utilizar columnas con la información similar, pero la conclusión no va a ser realista, como mencioné anteriormente, son datos inventados.
 
+# PREPARACIÓN DE DATOS
+
+# UN DATAFRAME CON 50 DATOS ALEATORIOS CON LAS COLUMNAS DE UN DATASET DE KAGGLE
+
 n = 50
 dat_csv = pd.DataFrame({
     "Edad": np.random.randint(18, 80, n),
@@ -182,3 +186,17 @@ plt.ylabel("Valor real")
 plt.xlabel("Predicción")
 plt.show()
 print(classification_report(y_test, y_pred_usu))
+
+"""¿Cómo pudiste llevar adelante esta actividad? te pareció muy difícil o muy fácil?  ¿por qué?  Por favor compartí tu respuesta en el foro del Campus
+
+Los ultimos temas, tanto de Minería de Datos como Aprendizaje Automático, me parecieron muy dificiles, quizá es porque tengo un nivel de programación muy bajo, pero suelo usar mucha IA para entender que es lo que estoy haciendo, intentar comprender que es lo que escribo o de donde sale, que es lo que cambia cada parte del código y luego intento realizarlo sin ayuda.
+
+En el primer ejercicio utilicé datos inventados, llegando a una conclusión que puede variar, ya que no encontré una base de datos modelo con menos de 100 registros, busque en Kaggle y solo conseguí de más de 1000 lo que relentiza el proceso. Mi idea era crear un DataFrame con datos aleatorios, solo para poder observar el código y la visualización de los datos
+
+Tengo dudas en este ejercicio, ¿Cómo hago para poder mejorar la calidad del gráfico cuando tengo muchos registros?
+En mi primer intento utilicé una base de datos de 10.000 registros y no se podía observar correctamente, a mi parecer, se veía manchado, no encontraba donde hay mayor concentración de registros ya que en todos lados pasaba esta situación.
+
+En el segundo ejercicio copie y seguí a la par el notebook de ejemplo, con los datos de el csv propuesto, conseguí un 70% de acierto en la predición, a mi parecer muy alto y un porcentaje muy positivo pensando en que hay 3 variables, lo que indica que utilizar el Azar para elegir, solo nos dejaría con un 33% de acierto.
+
+
+"""
