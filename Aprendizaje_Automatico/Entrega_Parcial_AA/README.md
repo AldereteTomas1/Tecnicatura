@@ -1,5 +1,8 @@
 ## Parcial Aprendizaje Automático
 
+# VIDEO: 
+https://drive.google.com/file/d/1vFB2HqSpM3axLKdPmdDNpv0bewfU4xf1/view?usp=sharing
+
 ### Alumno: Alderete Tomás
 
 ## Modelo de Predicción: Árbol de Decisión
