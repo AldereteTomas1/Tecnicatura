@@ -69,8 +69,7 @@ Columnas del dataset:
 - Vómitos
 - Dolor de Cabeza 
 - Diarrea
-- Fatiga
-- Dolor de huesos
+- Fatiga y Dolor de Huesos
 - Ictericia
 - Dolor epigástrico
 - Glóbulos blancos
